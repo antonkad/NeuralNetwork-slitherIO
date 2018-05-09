@@ -7,6 +7,7 @@ let foods = [];
 
 function setup() {
   createCanvas(width, height);
+
   slither = new slither(0, 0);
   for(let i = 0; i < 5000; i++){
     this.generateFood();
